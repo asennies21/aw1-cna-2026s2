@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hogaza Tradicional",
+    "precio": 2000,
+    "moneda": "ARS",
+    "descripcion": "Nuestra receta insignia. Corteza crujiente y miga alveolada con un toque de acidez perfecta. Fermentación de 48 horas.",
+    "estado": {
+      "etiqueta": "Disponible",
+      "disponible": true
+    },
+    "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuDn2Rxb7vfcLddHmjdGC2n7WMUGpFJMQ1-JN5NPVhDwwOUuF-2ovwwCpMdRr5rZULhs2-73O3FPPUbeFQaaFm27SqCDxmdAO_Qpz6lKalJJJ5_jyK7aqdujD_pG7oAXRY6hCpwnl0l0paTjSJMWmjByBbyQQzk8xNGKJAZO95pW6cq0QoAwAJJ2axIP6iT_vukqrUizkh9MyjsbFutSI0Nt84DWPJkIbzLZ5t0U7bdAICoJhVhtsmvg",
+    "alt": "Fotografía en plano detalle de una hogaza de pan de masa madre artesanal y rústica sobre una tabla de cortar."
+  },
+  {
+    "id": 2,
+    "nombre": "Integral de Centeno",
+    "precio": 2200,
+    "moneda": "ARS",
+    "descripcion": "Pan denso y aromático elaborado 100% con harina de centeno integral y masa madre. Sabor profundo y terroso.",
+    "estado": {
+      "etiqueta": "Últimas unidades",
+      "disponible": true
+    },
+    "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuBt6zS9rUbHWEzUxvTS-t-LURjPp_y8uIHoVhQKpXKNnObrY5CFutcYqujESmxUN7fUkr7SpZI7eux1outxWVtPGuSJfj9H3iJxT6Qvn04Gpg8bz5o3P2AGP5pUtSPxZ8RqNu-2XBs4i6oUyHjbDe39cshBV037Z8S-9ZZn1bJMY7ZgWMSGe87itLeJuk1myF7es9QpQru5LKCehC1c_1xmjhmDizc4wNhfHM_F8cRU04ip37viXI7R",
+    "alt": "Fotografía gastronómica de un pan integral de centeno en rebanadas sobre un paño de lino."
+  },
+  {
+    "id": 3,
+    "nombre": "Aceitunas y Romero",
+    "precio": 3000,
+    "moneda": "ARS",
+    "descripcion": "Una combinación mediterránea clásica. Masa madre blanca con aceitunas Kalamata enteras y romero fresco de nuestro huerto. Ideal para acompañar quesos y vinos.",
+    "estado": {
+      "etiqueta": "Disponible",
+      "disponible": true
+    },
+    "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuDGP6N8yEoLqdh6jkVD4L9Snupx6ffHaNyZbUJaXG5QwaKz4SqPeyvzzAPelnXxLe7IbQjjS7JJX9dBqL4lfIr4dL_WsQVw7ww9Jjxx39EtpK3g_ogMRw6Gwgh7OnomCh0lRRYtc6zKV1zJOK_ww24hLhX2y85PgX-3Ej9n8tHfQZeH7TwTouMdX2BNmsqtYSdyou_eCOwIshT2XVXp3a3TCLA5jxPY7LLesExJrAA-uL6a9V2MiQ_u",
+    "alt": "Pan artesanal con aceitunas Kalamata enteras y ramitas de romero fresco."
+  },
+  {
+    "id": 4,
+    "nombre": "Multigrano de Semillas",
+    "precio": 3400,
+    "moneda": "ARS",
+    "descripcion": "Nutritivo y crujiente. Enriquecido con semillas de lino, girasol, calabaza y chía tostadas.",
+    "estado": {
+      "etiqueta": "Agotado",
+      "disponible": false
+    },
+    "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCyKoMbGfMs1a39GMnGhDI4vp5jTWmHAlMf5BSl2oeRtbC_gm4I2sxpMIwgV34GuSXj1DXvRTMaNgSxobXCpGqUcaTY6bOStV1BEszp02wpaJ5H_5_2QiFMAOx8PBpgfImKpzZP9hfYpJNdT2JvcvON1dNbrErdufyxmNCMfIgW2TJE9I1D6ARnLOiwQwgRFR7-EW-wvax5BJzuiRB5L9nUAEncKdklzZnjAWYdgQGozhDRa5gJqrXD",
+    "alt": "Pan de masa madre multigrano cubierto de semillas tostadas."
+  },
+  {
+    "id": 5,
+    "nombre": "Baguette de Masa Madre",
+    "precio": 1700,
+    "moneda": "ARS",
+    "descripcion": "Clásica baguette francesa reinterpretada con nuestra masa madre salvaje. Corteza fina y crujiente, interior suave.",
+    "estado": {
+      "etiqueta": "Disponible",
+      "disponible": true
+    },
+    "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCGwNZP7Wp6XMA4poTmxwjvP8RacFO5j_N25EH05HTXyozYYDXURlV_iwyGNZtng3S-EMlcutPjbkT-3_Aw5cAfsaoJeipnmp5ntPSra7OHiw2HWeBDJMwFu8sTyMTE3HEvelJydXl8heATQJDlKItHL-lQ8V-Xoqmgxmjgat1FTFM6FZPqDnSggOPQB-VU8eI5E369NyM6-gsfJOzH1pBDuBRjq-R7QJ0WpBIhU38JFmwFJzk0wSpi",
+    "alt": "Tres baguettes crujientes de masa madre apoyadas en posición diagonal."
+  }
+]

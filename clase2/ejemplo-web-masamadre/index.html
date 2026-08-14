@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Catálogo - Masa Madre</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;600;700&amp;display=swap"
+        rel="stylesheet">
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tailwind Config -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#eae8e4",
+                        "on-tertiary-fixed-variant": "#3c4a3c",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#28180b",
+                        "on-background": "#1b1c1a",
+                        "error": "#ba1a1a",
+                        "surface-container-highest": "#e4e2de",
+                        "on-tertiary": "#ffffff",
+                        "surface-tint": "#705a49",
+                        "background": "#fbf9f5",
+                        "primary-fixed-dim": "#dec1ac",
+                        "on-secondary-container": "#745c00",
+                        "outline-variant": "#d2c4bb",
+                        "surface-variant": "#e4e2de",
+                        "on-tertiary-fixed": "#111f13",
+                        "primary": "#322214",
+                        "surface-bright": "#fbf9f5",
+                        "surface-container-low": "#f5f3ef",
+                        "inverse-primary": "#dec1ac",
+                        "primary-fixed": "#fbddc7",
+                        "on-secondary-fixed": "#241a00",
+                        "on-tertiary-container": "#99a997",
+                        "on-error-container": "#93000a",
+                        "on-surface": "#1b1c1a",
+                        "secondary-fixed": "#ffe088",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f2f0ed",
+                        "tertiary-fixed": "#d6e7d4",
+                        "surface": "#fbf9f5",
+                        "tertiary-fixed-dim": "#bacbb8",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-secondary-fixed-variant": "#574500",
+                        "on-surface-variant": "#4e453e",
+                        "secondary": "#735c00",
+                        "surface-container": "#efeeea",
+                        "surface-container-lowest": "#ffffff",
+                        "outline": "#80756d",
+                        "tertiary-container": "#303e30",
+                        "secondary-container": "#fed65b",
+                        "on-primary-fixed-variant": "#574333",
+                        "primary-container": "#4a3728",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#bba08c",
+                        "tertiary": "#1a281c",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#30312e",
+                        "surface-dim": "#dbdad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "48px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "stack-md": "24px",
+                        "margin-mobile": "16px",
+                        "stack-sm": "12px",
+                        "stack-lg": "48px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "status-label": ["Manrope"],
+                        "display-lg": ["Libre Caslon Text"],
+                        "body-lg": ["Manrope"],
+                        "headline-lg": ["Libre Caslon Text"],
+                        "headline-md": ["Libre Caslon Text"],
+                        "body-md": ["Manrope"],
+                        "headline-lg-mobile": ["Libre Caslon Text"],
+                        "label-md": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "status-label": ["12px", { "lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "700" }],
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script type="module" src="app.js"></script>
+</head>
+
+<body class="antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <header
+        class="sticky top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 max-w-container-max mx-auto bg-surface dark:bg-surface-dim flat no shadows">
+        <a class="font-display-lg text-headline-md text-primary dark:text-primary-fixed" href="/">
+            Masa Madre
+        </a>
+        <nav class="hidden md:flex gap-stack-md">
+            <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200"
+                href="#">Inicio</a>
+            <!-- Active State -->
+            <a class="font-label-md text-label-md text-primary dark:text-primary-fixed border-b-2 border-primary dark:border-primary-fixed pb-1 scale-95 duration-150"
+                href="#">Catalogo</a>
+            <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200"
+                href="#">Contacto</a>
+        </nav>
+        <a class="hidden md:inline-flex items-center justify-center bg-primary-container text-on-primary-container font-label-md text-label-md px-4 py-2 rounded btn-premium hover:bg-primary hover:text-on-primary transition-colors"
+            href="#contact">
+            Reservar ahora
+        </a>
+    </header>
+    <!-- Main Content -->
+    <main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+        <!-- Header Section -->
+        <section class="mb-stack-lg text-center md:text-left">
+            <h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-unit">Nuestro Horno de
+                Hoy</h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                Selección de panes artesanales horneados esta mañana. Disponibilidad limitada para garantizar frescura y
+                calidad.
+            </p>
+        </section>
+        <!-- Bento Grid for Catalog -->
+        <section id="contenedor-productos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer
+        class="w-full py-stack-lg px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto bg-surface-container-low dark:bg-surface-container flat no shadows mt-auto">
+        <div class="col-span-1 md:col-span-2 mb-stack-md md:mb-0">
+            <span class="font-display-lg text-headline-md text-primary block mb-unit">Masa Madre</span>
+            <p class="font-body-md text-body-md text-on-surface-variant">© 2024 Masa Madre Artisanal Bakery. Hecho con
+                paciencia y masa madre.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
