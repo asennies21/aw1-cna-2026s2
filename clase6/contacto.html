@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Huellitas - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./recursos/imagenes/logo-mascota.png" alt="logo huellitas">
+        </a>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./catalogo.html">Catálogo</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <h2>Escribinos</h2>
+        <!-- formulario web -->
+        <form action="./contacto.html" method="post">
+            <!--
+            nombre
+            telefono
+            mail
+            tamaño C M G
+            direccion
+            consulta
+            -->
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+            <label for="id-telefono">Telefono</label>
+            <input type="tel" id="id-telefono">
+            <label for="id-email">Email</label>
+            <input type="email" name="email" id="id-email">
+            <label for="id-tamaño-mascota">Tamaño</label>
+            <select name="tamaño-mascota" id="id-tamaño-mascota">
+                <option value="P">Pequeño</option>
+                <option value="M">Mediano</option>
+                <option value="G">Grande</option>
+            </select>
+            <label for="id-direccion">Direccion</label>
+            <input type="text" name="direccion" id="id-direccion">
+            <label for="id-comentarios">Conetario</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+            <!-- ------- -->
+            <!-- <input type="submit" value="Enviar"> -->
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Dónde estamos</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.692518418041!2d-64.18680482373392!3d-31.422596696552837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2855d648fa1%3A0xc450c66c8b10b5d3!2sRondeau%20175%2C%20X5000AVC%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1788387768851!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Rondeau 175 - Cordoba
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
