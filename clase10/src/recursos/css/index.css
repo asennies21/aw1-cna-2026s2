@@ -1,0 +1,65 @@
+/*
+Sintaxis
+*/
+/*
+REGLA CSS
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+    */
+*{
+    /* outline: 1px red solid; */
+}
+
+html, body, h1, h2, h3,p{
+    margin:0;
+    padding:0;
+}
+/* Selectores de TIPO */
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: rgb(49, 25, 25); /*!important;*/
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* selectores de CLASE */
+.vinculo-pie{
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal{
+    background-color: #999999;
+}
+
+.cabecera-principal a img{
+    width: 50px;
+}
+
+.cabecera-principal nav a{
+    color: #333;
+}
+
+/* contenido principal */
+.contenido-principal{
+    
+}
+
+/* pie principal */
+.pie-principal{
+    background-color: #999999;
+}
+/* selector de atributo
+[]{
+
+} */
+/* #navegacion-principal{
+    background-color: #333333;
+} */
