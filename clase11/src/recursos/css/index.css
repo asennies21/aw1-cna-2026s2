@@ -1,0 +1,94 @@
+/*
+Sintaxis
+*/
+/*
+REGLA CSS
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+    */
+
+
+@font-face {
+    font-family: Nunito;
+    src: url(./fuentes/Nunito-Regular.ttf);
+}
+
+*{
+    /* outline: 1px red solid; */
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3,p{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* Selectores de TIPO */
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: rgb(49, 25, 25); /*!important;*/
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* selectores de CLASE */
+.vinculo-pie{
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #999999;
+    padding:10px;
+}
+
+.cabecera-principal a img{
+    width: 50px;
+}
+
+.cabecera-principal nav a{
+    color: #333;
+}
+
+/* contenido principal */
+.contenido-principal{
+    
+}
+.contenido-principal .contenedor{
+    width: 300px;
+    height: 200px;
+    padding: 10px 5px 3px 8px;
+    background-color: #ccc;
+    border: 2px solid #000;
+}
+
+.contenido-principal .contenedor p{
+  font-size: 0.9rem;
+}
+/* pie principal */
+.pie-principal{
+    background-color: #999999;
+}
+/* selector de atributo
+[]{
+
+} */
+/* #navegacion-principal{
+    background-color: #333333;
+} */
