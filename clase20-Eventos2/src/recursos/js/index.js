@@ -4,6 +4,8 @@ import { renderizadoProductos, filtrarProductos } from './funciones.js'
 
 const productosSeleccionados = []
 
+
+
 // Referencias
 const contenedorProductos = document.getElementById('contenedor-productos')
 const botonEvento = document.getElementById('evento-boton')
@@ -30,6 +32,7 @@ botonEvento.addEventListener('click', (evento) => { //e evt event
 })
 
 // Referencia
+// querySelector()
 const botonesProductos = contenedorProductos.querySelectorAll('.boton-agregar')
 
 // console.log(botonesProductos)
